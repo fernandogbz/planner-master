@@ -4,4 +4,5 @@ This project is a Dashboard UI and was made by Fernando Jiménez, using only HTM
 <br>
 Link:
 <br>
-![image](https://user-images.githubusercontent.com/112293116/217593220-2cb5b26d-e442-4869-a09b-c3193324d463.png)
+
+![planner-master](https://user-images.githubusercontent.com/112293116/217593800-fbc3bc98-efcd-4474-a118-9eb8d06bd9ed.png)
