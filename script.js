@@ -12,15 +12,15 @@ document.addEventListener("DOMContentLoaded", () => {
   listView.addEventListener("click", () => {
     gridView.classList.remove("active");
     listView.classList.add("active");
-    projectsList.classList.add("jsGridView");
     projectsList.classList.remove("jsGridView");
+    projectsList.classList.add("jsListView");
   })
 
   gridView.addEventListener("click", () => {
     gridView.classList.add("active");
     listView.classList.remove("active");
-    projectsList.classList.remove("jsGridView");
     projectsList.classList.add("jsGridView");
+    projectsList.classList.remove("jsListView");
   })
 
   document.querySelector(".messages-btn").addEventListener("click", () => {
