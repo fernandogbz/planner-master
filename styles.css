@@ -417,6 +417,7 @@ button, a {
 .project-boxes.jsListView .project-box-content-header {
   order: 1;
   max-width: 120px;
+  margin-right: 10px;
 }
 
 .project-boxes.jsListView .project-box-header {
@@ -455,6 +456,7 @@ button, a {
 .project-boxes.jsListView .box-progress-wrapper {
   order: 3;
   flex: 1;
+  margin-right: 15px;
 }
 
 .project-box {
