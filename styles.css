@@ -55,6 +55,7 @@ body {
 
 body {
   font-family: "DM Sans", sans-serif;
+  background-color: var(--app-container);
 }
 
 button, a {
@@ -66,7 +67,6 @@ button, a {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: var(--app-container);
   transition: 0.2s;
   max-width: 1800px;
 }
@@ -911,9 +911,16 @@ button, a {
 .footer, .footer a {
   text-align: center;
   text-decoration: none;
+  color: var(--main-color);
 }
 
 .footer a img {
   width: 40px;
   height: 40px;
+  margin-bottom: 30px;
+}
+
+.dark .footer a img{
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
