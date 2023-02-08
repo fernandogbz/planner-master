@@ -200,6 +200,10 @@ button, a {
   align-items: center;
 }
 
+#linkedin {
+  text-decoration: none;
+}
+
 .profile-btn {
   padding: 0;
   border: 0;
